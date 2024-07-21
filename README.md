@@ -1,2 +1,2 @@
 # SneakerShopConfig
-Configuration for sneaker shop microservices
+Configuration repo for sneaker shop microservices
