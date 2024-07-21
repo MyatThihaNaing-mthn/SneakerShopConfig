@@ -1,8 +1,3 @@
-AppConfiguration:
-  jwtSettings:
-    issuer: config-server
-    audience: "*"
-    signingKey: di38dj38r73k27fhk38ufe28342i3h0eu8234bfe2ifh8cd897vf23f2323vref54gy23
 UserDatabaseSetting:
   ConnectionName: mongodb://localhost:27017
   DatabaseName: UserService
@@ -15,3 +10,7 @@ eureka:
   instance:
     appName: UserService
     hostName: localhost
+jwtSettings:
+    issuer: config-server
+    audience: "*"
+    signingKey: di38dj38r73k27fhk38ufe28342i3h0eu8234bfe2ifh8cd897vf23f2323vref54gy23
