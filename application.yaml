@@ -7,11 +7,11 @@ AppConfiguration:
     issuer: config-server
     audience: "*"
     signingKey: di38dj38r73k27fhk38ufe28342i3h0eu8234bfe2ifh8cd897vf23f2323vref54gy23
-  eureka:
-    client:
-      shouldRegisterWithEureka: true
-      serviceUrl: http://localhost:8010/eureka
-      ValidateCertificates: false
-    instance:
-      appName: UserService
-      hostName: localhost
+eureka:
+  client:
+    shouldRegisterWithEureka: true
+    serviceUrl: http://localhost:8010/eureka
+    ValidateCertificates: false
+  instance:
+    appName: UserService
+    hostName: localhost
