@@ -1,4 +1,4 @@
 jwtSettings:
     issuer: config-server
     audience: "*"
-    signingKey: di38dj38r73k27fhk38ufe28342i3h0eu8234bfe2ifh8cd897vf23f2323vref54gy23
+    signingKey: '{cipher}d7c20cdd2f8521658e33be38af34ad2560852bb96d985a3e549459be800ca30ce19543f6caf76f809479626fa72ddd76d258ac5ee98e772bb009499363945784ddc4c2e984e28e4a715293b265a5d6c9c04263273770017801ff41f2ef68e197'
